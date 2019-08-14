@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Engage Commerce
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category    EngageCommerce
+ * @package     EngageCommerce_LinkedIn
+ * @copyright   Copyright (c) 2016 Engage Commerce (http://engagecommerce.io)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <tabs>
+        <engagecommerce>
+            <label>Engage Commerce</label>
+            <sort_order>100</sort_order>
+        </engagecommerce>
+    </tabs>
+    <sections>
+        <engagecommerce_linkedin translate="label">
+            <label>LinkedIn Insight Tag</label>
+            <tab>engagecommerce</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>3</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <linkedin_pixel translate="label">
+                    <label>Setup Insight Tag</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <sort_order>1</sort_order>
+                    <expanded>1</expanded>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Enabling the LinkedIn Insight tag will allow the tag to load on every page, sending your visitor traffic to LinkedIn so that you can both <a href="http://help.lms.linkedin.com/hc/en-us/articles/205799748-What-is-the-LinkedIn-Insight-Tag-" target="_blank">retarget your users and track conversions</a>.]]></comment>
+                        </enabled>
+                        <pixel_id translate="label">
+                            <label>Insight Tag ID</label>
+                            <frontend_types>text</frontend_types>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Your Insight tag ID(s) can be found in your LinkedIn Marketing Solutions hub when you edit the tag as seen in LinkedIn's <a href="http://help.lms.linkedin.com/hc/en-us/articles/203993478-Adding-the-LinkedIn-Insight-Tag-to-your-website" target="_blank">help center</a> documentation. If entering multiple IDs, please separate them with a comma.]]></comment>
+                        </pixel_id>
+                        <loadorder translate="label">
+                            <label>Insight Tag Load Order</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>EngageCommerce_LinkedIn_Model_LoadOrder</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Change where in your page the LinkedIn Insight tag will load if needed, but <a href="http://help.lms.linkedin.com/hc/en-us/articles/203993478-Adding-the-LinkedIn-Insight-Tag-to-your-website" target="_blank">LinkedIn recommends</a> loading it at the end of the body section.]]></comment>
+                        </loadorder>
+                    </fields>
+                </linkedin_pixel>
+            </groups>
+        </engagecommerce_linkedin>
+    </sections>
+</config>
