@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>LinkedIn_Insight_Tag</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
     <channel>community</channel>
@@ -11,9 +11,9 @@
     <notes>  - enable / disable support&#xD;
   - tag placement support for before head end, after body start, before body end&#xD;
   - 1 or multiple ids</notes>
-    <authors><author><name>Matthew Parke</name><user>MAG003281797</user><email>magento@engagecommerce.io</email></author></authors>
-    <date>2016-01-19</date>
-    <time>04:01:48</time>
+    <authors><author><name>Matthew Parke</name><user>MAG003281797</user><email>development@engagecommerce.io</email></author></authors>
+    <date>2016-01-23</date>
+    <time>00:29:09</time>
     <contents><target name="magecommunity"><dir name="EngageCommerce"><dir name="LinkedIn"><dir name="Helper"><file name="Data.php" hash="83e67974925c418afab3232f29b67483"/></dir><dir name="Model"><file name="LoadOrder.php" hash="4e0c4743d2626763f2e225fbf5b725f2"/></dir><dir name="etc"><file name="adminhtml.xml" hash="2a0e3c3d9ffb646305c9b46924d8bef4"/><file name="config.xml" hash="1753a55a862e337d89a3bd4f71fc6229"/><file name="system.xml" hash="d8bfc806dcfc2a4c6b26dbfb2a5d426e"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="engagecommerce_linkedin.xml" hash="5442dfc058c3db23d6f72ae0f8b0db52"/></dir><dir name="template"><dir name="EngageCommerce"><dir name="LinkedIn"><file name="linkedin_pixel.phtml" hash="9c772b030262350b8f77dbe1f9fae351"/><file name="pixel_after_body_start.phtml" hash="3d2611d221b2b9d3016560bee47af5b6"/><file name="pixel_before_body_end.phtml" hash="254ec12d254207bac423a662b90604a8"/><file name="pixel_before_head_end.phtml" hash="75388bae869daf18aec79acf2e76164d"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="EngageCommerce_LinkedIn.xml" hash="1be041ca10a2bb010ee9abc8936d6e2b"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
