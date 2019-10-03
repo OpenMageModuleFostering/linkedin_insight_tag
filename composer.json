@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/LinkedIn_Insight_Tag",
+    "name": "openmage-module-fostering\/linkedin_insight_tag",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "The LinkedIn Insight Tag is for advertisers that want to retarget their users, report on conversions, or optimize for conversions using LinkedIn Ads.",
     "authors": [
